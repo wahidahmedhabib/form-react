@@ -7,6 +7,10 @@ import Header from './component/Header'
 // import TextField from '@mui/material/TextField';
 import { Box, TextField } from '@mui/material'
 import Form from './component/Form/Form'
+import Stopper from './component/stopper/Stopper'
+import DrawerMenu from './component/Drawer/DrawerMenu'
+
+// import DrawerMenu from './component/Drawer/DrawerMenu'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,32 +18,15 @@ function App() {
   return (
     <>
       <Header />
-<div className='mt-28'></div>
+      <div className='mt-28'></div>
+      {/* <DrawerMenu /> */}
       {/* <TextField /> */}
-
-      {/* <Box
-        className=' mx-auto my-0 container flex  items-center justify-center  border  bg-red-300'
-        component="form"
-        sx={{
-          '& > :not(style)': { m: 1, width: '300px' },
-        }}
-        // noValidate
-
-        autoComplete="off"
+      <div
+        className=' mx-auto my-0  min-h-[200px] max-w-[680px] container flex flex-col items-center justify-center gap-6    rounded-xl mt-20'
       >
-        <TextField id="standard-basic" label="Standard" variant="standard" />
-      </Box> */}
-
-      {/* <div
-        className=' mx-auto my-0  h-[300px] w-[500px] container flex flex-col items-center justify-center gap-6  border  bg-blue-300 mt-20'
-
-      > */}
-
-
-        <Form />
-      {/* </div> */}
-
-      {/* <Input /> */}
+        <Stopper />
+      </div>
+      {/* <Form /> */}
 
     </>
   )
