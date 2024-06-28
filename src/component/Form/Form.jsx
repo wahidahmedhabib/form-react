@@ -15,22 +15,22 @@ export default function Form() {
     const onSubmit = (data) => console.log(data)
 
 
-    console.log(watch("example")) // watch input value by passing the name of it
+    // console.log(watch("example")) // watch input value by passing the name of it
 
 
     return (
         <>
             <form
                 /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
-                className=' mx-auto my-0 rounded-3xl px-4  min-h-[200px] max-w-[500px] container flex flex-col justify-center gap-5 border  '
+                className=' mx-auto my-0 rounded-3xl px-4  min-h-[200px] 00000000000max-w-[500px] container flex flex-col justify-center gap-5 border  '
                 onSubmit={handleSubmit(onSubmit)}>
                 {/* register your input into the hook by invoking the "register" function */}
                 {/* <input defaultValue="test" {...register("example")} /> */}
                 {/* <h1 className="font-bold "> */}
                 <h1 className="font-bold text-[20px]">
-                 utnvel enandae sunt mollitia dolores. Ipsam.
+                 utnvel enandae  Ipsam.
               <br />
-                 utnvel enanda dolores. Ipsam.
+                apknv elnda dolpsam.
                 </h1>
                 <Box
                     className=' mx-auto my-0 container flex  items-center justify-center  '
